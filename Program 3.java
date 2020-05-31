@@ -10,6 +10,7 @@ public class Main
     Node(int d)
     {
       data = d;
+      //System.out.println(d); we can print the value of d here ie. the linked list
     }
    }
   void PrintList()
