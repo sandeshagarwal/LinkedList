@@ -6,6 +6,7 @@ class test{
         System.out.println(x);
     }
 }
+
 public class Main{
   public static void main (String[] args) {
         test obj = new test(10);
