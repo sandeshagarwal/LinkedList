@@ -18,9 +18,9 @@ public class Main
     Node second = head;
     for(int i=0;i<n;i++)
     {
-      second = second.next;
+      second = second.next; // The second pointer is n nodes ahead of the head node ie. it is on (n+1)th node.
     }
-    while(second != null)
+    while(second != null) // When second node is null then first node is nth node from the end ie. (len-n+1)node from the begginning
     {
       first = first.next;
       second = second.next;
