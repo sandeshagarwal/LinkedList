@@ -23,8 +23,8 @@ public class Main
    curr  = head;
    if(n >= len)
     System.out.println("n is invalid");
-   for(int i=1;i<=(len-n+1);i++)
-   { 
+   for(int i=1;i<=(len-n);i++) // The loop should run till (len-n) not (len-n+1) because the head/curr already points to the first node
+   {                             // as a result it has it has run two times to reach the third node.
     curr = curr.next;
    }
    System.out.println("Hi");
